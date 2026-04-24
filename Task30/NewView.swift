@@ -13,3 +13,11 @@ func Greeting(name: String) -> String {
     let greeting = "Hi \(name) how's it going"
     return greeting
 }
+
+func isRaining(forecastSunny: Bool) -> Bool {
+    if !forecastSunny {
+        return true
+    } else {
+        return false
+    }
+}
