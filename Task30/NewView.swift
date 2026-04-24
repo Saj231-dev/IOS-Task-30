@@ -8,3 +8,8 @@
 func Birthday(age: Int) -> Int {
     return age + 1
 }
+
+func Greeting(name: String) -> String {
+    let greeting = "Hi \(name) how's it going"
+    return greeting
+}
